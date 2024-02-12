@@ -1,0 +1,96 @@
+.main {
+    width: 1800px;
+}
+
+.cat {
+    text-align: center;
+    margin: 40px auto;
+}
+ .text, .buttns {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.cat img {
+    width: 400px;
+}
+
+.text, .buttns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Рядок може переноситися на новий рядок, якщо не поміщається */
+}
+
+.text p, .buttns a {
+    margin:  10px; /* Додатковий відступ між елементами */
+}
+.buttns a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+h2{
+    font-size: 50px;
+}
+.text img{
+    padding: 15px;
+}
+.buttns{
+    width: 400px;
+    justify-content: space-around;
+    
+}
+
+.buttns img{
+    align-items: baseline;
+}
+.yes{
+    display: flex;
+    cursor: pointer;
+    padding-left:25px ;
+    padding-right:25px ;
+}
+.yes img{
+    height: 35px;
+    padding-top: 38px;
+    
+}
+.yes{
+    background-color: pink;
+    border-radius: 25px;
+}
+.no p{
+    background-color:rgb(104, 104, 104);
+    border-radius: 25px;
+    padding-left:25px ;
+    padding-right:25px ;
+    margin-left: 50px;
+}
+.no p:hover{
+    background-color:rgb(255, 255, 255);
+    color: white;
+    cursor: default;
+}
+.videos{
+    text-align: center;
+    margin-top: 70px;
+}
+.happy, .happyy{
+    text-align: center;
+}
+.happy{
+    font-size: 30px;
+    color: rgb(227, 62, 200);
+}
+.happyy{
+    font-size: 40px;
+    color: rgb(255, 0, 149);
+}
+.happy a{
+    text-decoration: none;
+    color: rgb(199, 144, 249);
+}
+.inst:hover{
+    color: rgb(132, 0, 255);
+}
